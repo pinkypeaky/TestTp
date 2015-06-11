@@ -1,41 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testrun name="de.vogella.junit.first" project="de.vogella.junit.first" tests="4" started="4" failures="1" errors="0" ignored="1">
-  <testsuite name="de.vogella.junit.first.MyClassTest" time="0.0">
-    <testcase name="testMultiply" classname="de.vogella.junit.first.MyClassTest" time="0.0">
-      <failure>java.lang.AssertionError: Result expected:&lt;50&gt; but was:&lt;2&gt;&#13;
-	at org.junit.Assert.fail(Assert.java:91)&#13;
-	at org.junit.Assert.failNotEquals(Assert.java:645)&#13;
-	at org.junit.Assert.assertEquals(Assert.java:126)&#13;
-	at org.junit.Assert.assertEquals(Assert.java:470)&#13;
-	at de.vogella.junit.first.MyClassTest.testMultiply(MyClassTest.java:13)&#13;
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
-	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)&#13;
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)&#13;
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)&#13;
-	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)&#13;
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)&#13;
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)&#13;
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)&#13;
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)&#13;
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)&#13;
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)&#13;
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)&#13;
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)&#13;
-	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
-	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)&#13;
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)&#13;
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)&#13;
-	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)&#13;
-&#13;
-</failure>
-    </testcase>
-    <testcase name="testSubstract" classname="de.vogella.junit.first.MyClassTest" time="0.0"/>
-    <testcase name="testAdd" classname="de.vogella.junit.first.MyClassTest" time="0.0"/>
-    <testcase name="testDivide" classname="de.vogella.junit.first.MyClassTest" time="0.0" ignored="true"/>
-  </testsuite>
-</testrun>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\trunk\Code\Main\Tp.UnitTests\bin\Tp.UnitTests.exe" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-06-13" time="15:45:02">
+  <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.5444" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="D:\trunk\Code\Libs\NUnit" machine-name="VASKOVSKIY" user="vaskovskiy" user-domain="OFFICE" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\trunk\Code\Main\Tp.UnitTests\bin\Tp.UnitTests.exe" executed="True" result="Success" success="True" time="16.111" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Tp" executed="True" result="Success" success="True" time="16.097" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="BusinessObjects" executed="True" result="Success" success="True" time="16.094" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Components" executed="True" result="Success" success="True" time="16.093" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="AccessManagerSpecs" executed="True" result="Success" success="True" time="16.089" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AccessManagerSpecs" executed="True" result="Success" success="True" time="16.087" asserts="3">
+                        <results>
+                          <test-case name="TestCase1" executed="True" result="Success" success="True" time="6.006" asserts="5" />
+                          <test-case name="TestCase2" executed="True" result="Failure" success="False" time="4.534" asserts="3" >
+                           <failure>
+                             <message><![CDATA[ Expected: 1 But was:  0]]></message>
+                             <stack-trace><![CDATA[at Tp.BusinessObjects.Components.AccessManagerSpecs.AccessManagerSpecs.SimpleTestCase2() in D:\trunk\Code\Main\Tp.UnitTests\AccessManagerSpecs\AccessManagerSpecs.cs:line 178]]></stack-trace>
+                            </failure>
+                          </test-case>
+                          <test-case name="TestCase3" executed="False" result="Ignored" >
+                           <reason>
+                            <message><![CDATA[]]></message>
+                           </reason>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
